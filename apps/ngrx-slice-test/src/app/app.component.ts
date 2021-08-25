@@ -1,3 +1,4 @@
+import { KullaniciActions } from './store/kullanici-slice';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngrx-slice-test';
+
+  constructor() {
+    console.log(KullaniciActions);
+  }
 }

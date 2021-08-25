@@ -19,7 +19,11 @@
     "@angular/platform-browser": "^12.1.0",
     "@angular/platform-browser-dynamic": "^12.1.0",
     "@angular/router": "^12.1.0",
+    "@ngrx/store": "^12.4.0",
     "@nrwl/angular": "12.8.0",
+    "immer": "^9.0.5",
+    "ngrx-immer": "^0.0.5",
+    "ngrx-slice": "^2.1.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
